@@ -10,7 +10,9 @@ This is my project of the [Timestamp Microservice challenge](https://www.freecod
 5. If the date string is invalid the api returns a JSON having the structure {"error" : "Invalid Date" }.
 
 ## Example usage:
-https://Timestamp-Microservice--freecodecamp.repl.co/api/timestamp/2015-12-25 *https://Timestamp-Microservice--freecodecamp.repl.co/api/timestamp/1451001600000
+https://Timestamp-Microservice--freecodecamp.repl.co/api/timestamp/2015-12-25 
+*https://Timestamp-Microservice--freecodecamp.repl.co/api/timestamp/1451001600000
+
 Example output:
 {"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}
 
