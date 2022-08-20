@@ -2,15 +2,14 @@
 const express = require('express');
 const app = express();
 
-// enable CORS
+// CORS
 const cors = require('cors');
 app.use(cors({optionsSuccessStatus: 200}));  
-// some legacy browsers choke on 204
 
-// http://expressjs.com/en/starter/static-files.html
+// express static-files
 app.use(express.static('public'));
 
-// http://expressjs.com/en/starter/basic-routing.html
+// express basic-routing
 app.get("/", function (req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
@@ -62,16 +61,3 @@ app.post('/api/timestampform', bodyParser.urlencoded({ extended: false }), (req,
   
   res.redirect(getUrl)
 })
-
-/*  let date = new Date(input);
-  if (input == "") {
-    date = new Date();
-  }
-  let result = {
-    "unix": date.getTime(),
-    "utc": date.toUTCString()
-  };
-  res.json(result);
-*/
-
-
