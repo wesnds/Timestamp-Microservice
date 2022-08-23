@@ -1,4 +1,4 @@
-# API Project: Timestamp Microservice for FCC
+# API Project: Timestamp Microservice from Free Code Camp
 
 ## About
 This is my project of the [Timestamp Microservice challenge](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice) for the freeCodeCamp API and Microservice certification. It was built based on the boilerplate available [here](https://github.com/freeCodeCamp/boilerplate-project-timestamp/).
